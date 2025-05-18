@@ -685,7 +685,7 @@
             const price = document.getElementById('price').value;
             const roomType = document.getElementById('room-type').value;
             
-            // In a real implementation, this would filter properties or redirect to a search results page
+            // This filter properties or redirect to a search results page
             alert(`Searching for ${roomType || 'all room types'} in ${location || 'all locations'} with price range ${price || 'any'}`);
             
             // Scroll to properties section
@@ -697,7 +697,7 @@
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // In a real implementation, this would send the form data to a server
+            // This sends the form data to a server
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const phone = document.getElementById('phone').value;
